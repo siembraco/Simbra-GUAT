@@ -1,0 +1,231 @@
+#edit-acepto-terminos--description,
+.form-item-tyc .webform-element-description {
+    display: block;
+    color: #0a1f1a;
+    font-family: "Franklin Gothic ATF";
+    font-size: 1.5rem;
+}
+
+.redes-main {
+        display: flex;
+            margin: 0;
+    padding: 0;
+}
+
+.redes-main li {
+        list-style: none;
+        margin 0 15px;
+}
+
+.redes-main li img {
+        width: 30px;
+        height: auto;
+}
+
+.content__inline {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.content__inline .link__custom--primary {
+    margin-left: 15px;
+	margin-right: 15px;
+}
+
+.path-checkout .checkout-pane-payment-information .fieldset-wrapper {
+	displa:block;
+}
+
+.checkout-pane .stripe-form{
+
+}
+
+.iconos-animados-contenedor {
+	position: absolute;
+    width: 100%;
+    z-index: 2;
+    bottom: 39px;
+	display: flex;
+	justify-content: center;
+}
+
+.view-id-map_result {
+	padding-top: 107px;
+}
+
+.view-id-map_result .view-header {
+	color: #177755;
+    font-family: "Franklin Gothic ATF";
+    font-size: 28px;
+}
+
+.boxcont {
+			width: 300px;
+			height: 300px;
+			display: inline-block;
+			margin: 60px;
+			}
+			.margen_left{
+				margin-left: 100px;
+			}
+			
+		.box2 {	
+			animation: rotation3 9s infinite linear !important;
+			-webkit-filter: drop-shadow( 4px 4px 3px rgb(230 255 229 / 72%));
+        	filter: drop-shadow( 4px 4px 3px rgb(230 255 229 / 72%));
+		}
+		.box3 {	
+			animation: rotation3 14s infinite linear !important;
+			-webkit-filter: drop-shadow( 4px 4px 3px rgb(230 255 229 / 72%));
+        	filter: drop-shadow( 4px 4px 3px rgb(230 255 229 / 72%));
+		}
+		.box4 {	
+			animation: rotation3 24s infinite linear !important;
+			-webkit-filter: drop-shadow( 4px 4px 3px rgb(230 255 229 / 72%));
+        	filter: drop-shadow( 4px 4px 3px rgb(230 255 229 / 72%));
+		}
+		.boxint {
+		  position: absolute;
+		  width: 300px;
+		  height: 300px;		 
+		 
+		}
+		.boxint2 {
+		  position: absolute;
+		  width: 200px;
+		  height: 200px;		 
+		 
+		}
+		.boxint3 {
+		  position: absolute;
+		  width: 250px;
+		  height: 250px;		 
+		 
+		}
+		
+		.aros{
+			transform: perspective( 400px ) rotateX( 55deg );
+		}
+		.ani1{
+			animation: rotation 7s infinite linear;
+		}
+		.ani2{
+			animation: rotation2 3s infinite linear;
+		}
+		.ani12{
+			animation: rotation 3s infinite linear;
+		}
+		.ani22{
+			animation: rotation2 1s infinite linear;
+		}
+		.ani13{
+			animation: rotation 10s infinite linear;
+		}
+		.ani23{
+			animation: rotation2 5s infinite linear;
+		}
+		@keyframes rotation {
+		  from {
+		    transform: perspective( 400px ) rotateX( 55deg ) rotate(0deg);
+		  }
+		  to {
+		    transform: perspective( 400px ) rotateX( 55deg ) rotate(359deg);
+		  }
+		}
+		@keyframes rotation2 {
+		  from {
+		    transform: perspective( 400px ) rotateX( 55deg ) rotate(359deg);
+		  }
+		  to {
+		    transform: perspective( 400px ) rotateX( 55deg ) rotate(0deg);
+		  }
+		}
+
+		@keyframes rotation3 {
+		  from {
+		    transform:  rotateY(359deg);
+		  }
+		  to {
+		    transform:  rotateY(-359deg);
+		  }
+		}
+		
+
+
+.line1 {
+    stroke-dasharray: 340;
+    stroke-dashoffset: 60;
+    animation: dash 1.5s linear alternate infinite;
+  }
+
+  .line2 {
+    stroke-dasharray: 420;
+    stroke-dashoffset: 420;
+    animation: dash2 1.5s linear alternate infinite;
+  }
+
+  @keyframes dash {
+    from {
+      stroke-dashoffset: 360;
+    }
+    to {
+      stroke-dashoffset: 40;
+    }
+  }
+
+  @keyframes dash2 {
+    from {
+      stroke-dashoffset: 280;
+    }
+    to {
+      stroke-dashoffset: -40;
+    }
+  }
+
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 1300px) {
+  .sol {
+   display: none;
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 900px) {
+  .sol {
+   display: none;
+  }
+  .planta {
+   display: none;
+  }
+	.boxcont {
+	    transform: scale(0.5);
+	}
+	.iconos-animados-contenedor {
+		bottom: 95px;
+	}
+	.content__inline {
+		flex-wrap: wrap;
+	}
+}
+.carga{
+	color: #fff;
+	position: absolute;
+	text-align: center;
+	margin-left: 285px;
+	
+	animation-name: carga1;
+	animation-duration: 4s;
+}
+@keyframes carga1 {
+  0%   {margin-left: 285px;}
+  25%  {margin-left: 485px;}
+  50%  {display: block;}
+  100% {display: block;}
+}
+
+.view-slider .view-content .field-content .views-field--wrapper {
+	z-index: 50 !important;
+}
+
